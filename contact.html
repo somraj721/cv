@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<form action="mailto:joe@example.com?subject=feedback" target="_blank" method="post" enctype="text/plain">
+  <label for="fname">Enter your first name</label>
+  <input type="text" name="fname" value="" placeholder="Name" required>
+  <br>
+  <label for="lname">Enter your last name</label>
+  <input type="lname" name="lname" value="">
+  <br>
+  <table>
+    <tr>
+      <td><label for="gender">Select your gender</label></td>
+      <td><input type="radio" name="gender" value="male"></td><br>
+        <td><label for="male">Male</label></td>
+      </tr>
+    <tr>
+      <td></td>
+      <td><input type="radio" name="gender" value="woman"></td>
+      <td>  <label for="woman">Woman</label></td>
+    </tr>
+  </table>
+  <br><label for="date">Date</label>
+  <input type="date" name="" value="">
+  <br>
+<!--  <label for="Feedback">Feedback</label>
+  <textarea name="Feedback" rows="10" cols="20" placeholder="Enter your feedback here"></textarea>
+-->
+  <br>
+  <label for="file">Upload Resume</label>
+  <input type="file" name="file" accept="image/*,.PDF">
+  <br><br>
+<!--  <label for="range">Range</label>
+  <input type="range" name="range" min="10" max="20">-->
+  <input type="submit" name="submit" value="Submit" multiple>
+
+
+
+
+
+</form>
+
+</body>
+</html>
